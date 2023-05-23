@@ -13,6 +13,9 @@ public class Radio {
         this.maxStation = numberStation - 1;
     }
 
+    public Radio() {
+        
+    }
 
     public int getCurrentNumber() {
         return currentRadioNumber;
